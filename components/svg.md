@@ -1,4 +1,4 @@
-由于项目需要用到彩色图标，而原有的iconfont不支持，因而采用svg。
+由于项目需要用到彩色图标，而原有的iconfont.ttf满足不了需求，因而采用svg。
 步骤：
 - 定义Svg图标对象数组
     ```
@@ -12,7 +12,7 @@
         ],
     ```
 - web原生支持svg，不做特殊处理
-- rn需要引入react-native-svg
+- rn需要引入[react-native-svg](https://github.com/react-native-community/react-native-svg)
 - 编写web svg通用组件（web svg）
     ```
     <svg
