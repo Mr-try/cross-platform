@@ -30,7 +30,7 @@
         PureTabs.TabPane = Tabs.TabPane
         export default PureTabs
 ```
-2. 而web则不用做处理，只需要将antd的web引入再export出去就行(tabs/index.web.js)
+2. 而web则不用做处理，只需要将antd的tabs引入再export出去就行(tabs/index.web.js)
 ``` 
     import { Tabs } from 'antd-mobile'
     import './index.less'

@@ -6,3 +6,4 @@
 
 > antd bbbbbug集合
 - [picker](./antdbugs/picker.md)
+- [tabs](./antdbugs/tabs.md)
