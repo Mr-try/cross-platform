@@ -1,5 +1,5 @@
 扫一扫功能需要用到摄像头功能，选取[react-native-camera](https://github.com/lwansbrough/react-native-camera)
-功能描述：
+> 功能描述：
     扫码跳转到详情页，IOS要对没有权限访问做提示处理，10s内没有扫到内容也要做处理
 使用方法
 ```
