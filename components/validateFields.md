@@ -81,3 +81,28 @@ class ControlledTextInput extends React.Component {
 
 export default ControlledTextInput
 ```
+提交表单部分
+```
+  onSubmit() {
+    this.props.form.validateFields((error) => {
+      if (error) return this.tipFail(error)
+      const registerInfo = this.props.form.getFieldsValue()
+      registerInfo.channel = getChannel()
+      return this.props.register(serializeData(registerInfo), this.jumpToNext.bind(this))
+    })
+  }
+  tipFail(error) {
+    let message = ''
+    if (error.mobile) {
+      message = '请输入手机号'
+    } else if (error.captcha) {
+      message = '请输入图片验证码'
+    } else if (error.code) {
+      message = '请输入短信验证码'
+    } else if (error.password) {
+      message = '请输入密码'
+    }
+    Toast.info(message, 2, () => {}, false)
+  }
+```
+> 如果大量用到tipFail，则可对提示进行专门的封装处理
