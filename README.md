@@ -9,6 +9,7 @@
 
 > 踩坑记录
 - [(非)受控组件](./note/controlled.md)
+- [添加中间件](./note/middleware.md)
 > antd bbbbbug集合
 - [picker](./antdbugs/picker.md)
 - [tabs](./antdbugs/tabs.md)
