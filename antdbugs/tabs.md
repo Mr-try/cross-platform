@@ -7,5 +7,6 @@
     tabs的onchange事件切换数据源
 - RN上tabs切换title是切换不过去，是有两个需要参数要注意
     - defaultActiveKey:可以定义this.key在onchange中动态指定该值
-    - activeKey:同上，当然也可以随props动态传入
+    - activeKey:同上，当然也可以随state、props动态传入
     - 不要忽略第二条
+- tabs的key只能是字符串

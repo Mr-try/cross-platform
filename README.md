@@ -5,7 +5,10 @@
 - [引入SVG图标](./components/svg.md)
 - [引入react-native-camera](./components/camera.md)
 - [表单验证部分](./components/validateFields.md)
+- [react-navigation](./components/navigation.md)
 
+> 踩坑记录
+- [(非)受控组件](./note/controlled.md)
 > antd bbbbbug集合
 - [picker](./antdbugs/picker.md)
 - [tabs](./antdbugs/tabs.md)
