@@ -1,8 +1,9 @@
 > 鉴于在大多数情况下picker/datePicker并不实用或者说使用起来bug多多
   因此可以采用popUp+pickerView来替代
+
   示例1:地址联动
   ![address](../resource/address.png)
-  示例1:日期联动
+  示例2:日期联动
   ![date](../resource/date.png)
   ```
     ···
