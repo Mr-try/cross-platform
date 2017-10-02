@@ -41,7 +41,7 @@ react-navigation组件用于页面导航
     // 跳转路由的时候可以传递参数
     this.props.navigation.navigate('userCenter', {params})
     ```
-> 注意：react-native-navigation的goback()函数并不会刷新返回的页面，
+> 注意：react-native-navigation的goback()函数并不会刷新返回的页面，也没有提供reload方法。
   如果想要刷新可以使用
   ```
   // pageA
@@ -50,3 +50,6 @@ react-navigation组件用于页面导航
   DeviceEventEmitter.emit('refresh')
   ```
   这样有A->B再有B->A，pageA就可以执行自身的refresh函数了。
+
+> but上面的方法不支持web，但是值得注意的是B页面的props或者state更新的时候，A页面的WillUpdate、DidUpdate
+   会执行，因此也可以通过这种方式满足部分需求
