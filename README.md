@@ -13,3 +13,4 @@
 - [picker](./antdbugs/picker.md)
 - [tabs](./antdbugs/tabs.md)
 - [popup](./antdbugs/popup.md)
+- [popup+pickerView](./antdbugs/pickerView.md)
