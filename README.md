@@ -7,7 +7,8 @@
 - [表单验证部分](./components/validateFields.md)
 - [react-navigation](./components/navigation.md)
 - [webView](./components/webView.md)
-> [注意事项] (./note/other.md)
+> [注意事项](./note/other.md)
+
 > 踩坑记录
 - [(非)受控组件](./note/controlled.md)
 - [添加中间件](./note/middleware.md)
