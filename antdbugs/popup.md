@@ -12,3 +12,4 @@ Popup.show(<AddressPopup
 > Popup作为一个弹出层并没有自身的状态，因此对其调用生命周期钩子函数是无效的
 - 当Popup使用包裹组件的数据源时，即便包裹组件的数据源改变，Popup的数据也不会变，重新Popup.show()才能看的变化后的数据
 > 因此要把修改数据的逻辑放在Popup内部处理才行，比如淘宝收货地址的所在地区选择(猜的，反正我是这么搞的)。
+- 当madol满足不了的需求的时候，考虑用Popup来实现，于是将Popup的动画设置为none，问题来了：popup.hide()后在此点击popup cant't show,wtf!
