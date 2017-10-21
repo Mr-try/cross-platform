@@ -5,3 +5,4 @@
 - 使用webView嵌套图片的时候除了width:100%同时也要指定height:auto，不然会出现图片拉伸现象
 - ScrollView如果直接嵌套一个ScrollView(ListView)，在部分机型下的web会导致高度塌陷问题
   因为react-native-web之前把其中一层的flex-basis设成了0%，升级到0.0.130就行了。
+- 当父子标签onPress指向的是同一个函数的时候，该函数会执行两次，不是同一个函数的时候则没有这个问题。
