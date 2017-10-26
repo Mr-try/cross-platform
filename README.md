@@ -7,6 +7,7 @@
 - [表单验证部分](./components/validateFields.md)
 - [react-navigation](./components/navigation.md)
 - [webView](./components/webView.md)
+- [formatCdn](./components/formatCdn.md)
 > [注意事项](./note/other.md)
 
 > 踩坑记录
