@@ -8,6 +8,7 @@
 - [react-navigation](./components/navigation.md)
 - [webView](./components/webView.md)
 - [formatCdn](./components/formatCdn.md)
+- [扫一扫](./components/scan.md)
 > [注意事项](./note/other.md)
 
 > 踩坑记录
